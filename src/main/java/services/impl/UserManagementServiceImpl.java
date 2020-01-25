@@ -44,7 +44,7 @@ public class UserManagementServiceImpl implements UserManagementService {
 
 
     @Override
-    public boolean isUserValid(String login, String password) {
+    public boolean isUserPasswordValid(String login, String password) {
         try {
             return userDAO.getUserByLogin(login).getPassword().equals(password);
         } catch (NoResultException e) {
@@ -56,6 +56,26 @@ public class UserManagementServiceImpl implements UserManagementService {
     public boolean isUserExists(String login) {
         try {
             userDAO.getUserByLogin(login);
+            return true;
+        } catch (NoResultException e) {
+            return false;
+        }
+    }
+
+    @Override
+    public boolean isUserLoginExists(String login) {
+        try {
+            userDAO.getUserByLogin(login);
+            return true;
+        } catch (NoResultException e) {
+            return false;
+        }
+    }
+
+    @Override
+    public boolean isUserEmailExists(String email) {
+        try {
+            userDAO.getUserByEmail(email);
             return true;
         } catch (NoResultException e) {
             return false;

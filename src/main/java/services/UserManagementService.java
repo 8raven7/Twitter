@@ -16,8 +16,12 @@ public interface UserManagementService {
 
     Set<User> getNotFollowedUsers(String login); // metoda zwraca liste User'ow których moge śledzić
 
-    boolean isUserValid(String login, String password);
+    boolean isUserPasswordValid(String login, String password);
 
     boolean isUserExists(String login);
+
+    boolean isUserLoginExists (String login);
+
+    boolean isUserEmailExists (String email);
 
 }
