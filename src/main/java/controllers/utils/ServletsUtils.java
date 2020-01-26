@@ -22,6 +22,10 @@ public class ServletsUtils {
     public static final String NOT_FOLLOWED_USERS = "notFollowedUsers";
     public static final String USER_LOGIN_FOLLOW = "userLoginToFollow";
     public static final String USER_LOGIN_TO_STOP_FOLLOW = "userLoginToUnfollow";
+    public static final String FOLLOWED_TWEETS = "tweets";
+    public static final String TWEET_MESSAGE_PARAM = "tweetMessage";
+
+
 
 
 
