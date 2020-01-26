@@ -6,26 +6,14 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="371c199e-25b6-4e75-b9f3-66047391c57c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/controllers/servlets/UsersServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/users.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/servlets/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/servlets/RegisterServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controllers/utils/ServletsUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/utils/ServletsUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/UserManagementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/UserManagementService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/impl/UserManagementServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/services/impl/UserManagementServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Twitter/WEB-INF/classes/controllers/utils/ServletsUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Twitter/WEB-INF/classes/controllers/utils/ServletsUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Twitter/WEB-INF/classes/services/UserManagementService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Twitter/WEB-INF/classes/services/UserManagementService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Twitter/WEB-INF/classes/services/impl/UserManagementServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Twitter/WEB-INF/classes/services/impl/UserManagementServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controllers/utils/ServletsUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controllers/utils/ServletsUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/services/UserManagementService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/UserManagementService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/services/impl/UserManagementServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/services/impl/UserManagementServiceImpl.class" afterDir="false" />
-    </list>
+    <list default="true" id="371c199e-25b6-4e75-b9f3-66047391c57c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Twitter" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -209,7 +197,7 @@
       <workItem from="1579421038898" duration="2011000" />
       <workItem from="1579461119872" duration="201000" />
       <workItem from="1579940046453" duration="14606000" />
-      <workItem from="1580025998669" duration="1874000" />
+      <workItem from="1580025998669" duration="2151000" />
     </task>
     <servers />
   </component>
