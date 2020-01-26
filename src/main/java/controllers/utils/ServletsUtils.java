@@ -15,9 +15,11 @@ public class ServletsUtils {
     public static final String EMAIL_ERROR_HEADER = "INVALID EMAIL";
     public static final String PASSWORD_ERROR_HEADER = "INVALID PASSWORD";
     public static final String LOGIN_NOT_EXIST_MESSAGE = "This login do not exist";
-    public static final String LOGIN_IN_USE_ERROR_MESSAGE = "Typed login is already in use"; // <------------
+    public static final String LOGIN_IN_USE_ERROR_MESSAGE = "Typed login is already in use";
     public static final String WRONG_PASSWORD_ERROR_MESSAGE = "Wrong password";
     public static final String EMAIL_ERROR_MESSAGE = "Typed email is already in use";
+    public static final String FOLLOWED_USERS = "followedUsers";
+    public static final String NOT_FOLLOWED_USERS = "notFollowedUsers";
 
 
     public static String getUserLoginFromSession(HttpServletRequest req) {

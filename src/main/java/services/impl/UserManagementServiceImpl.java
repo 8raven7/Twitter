@@ -83,6 +83,11 @@ public class UserManagementServiceImpl implements UserManagementService {
     }
 
     @Override
+    public Set<User> getFollowedUsers(String login) {
+        return userDAO.getFollows(login);
+    }
+
+    @Override
     public Set<User> getNotFollowedUsers(String login) {
         return userDAO.getNotFollowedUsers(login);
     }

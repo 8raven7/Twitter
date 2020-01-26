@@ -43,7 +43,7 @@ public class RegisterServlet extends HttpServlet {
         String email = req.getParameter(USER_EMAIL);
 
         if (service.isUserLoginExists(login)) {
-            ValidationError error = new ValidationError(LOGIN_ERROR_HEADER, LOGIN_IN_USE_ERROR_MESSAGE); // <------------
+            ValidationError error = new ValidationError(LOGIN_ERROR_HEADER, LOGIN_IN_USE_ERROR_MESSAGE);
             errors.add(error);
         }
         if (service.isUserEmailExists(email)) {
