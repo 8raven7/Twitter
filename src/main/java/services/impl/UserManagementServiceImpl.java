@@ -37,8 +37,8 @@ public class UserManagementServiceImpl implements UserManagementService {
     @Override
     public void stopFollowing(String currentUserLogin, String userLoginToUnfollow) {
         User currentUser = userDAO.getUserByLogin(currentUserLogin);
-        User userToFollow = userDAO.getUserByLogin(userLoginToUnfollow);
-        currentUser.getFollows().remove(userToFollow);
+        User userToUnfollow = userDAO.getUserByLogin(userLoginToUnfollow);
+        currentUser.getFollows().remove(userToUnfollow);
         saveUser(currentUser);
     }
 

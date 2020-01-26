@@ -38,10 +38,10 @@ public class TweetManagementServiceImpl implements TweetManagementService {
 
     @Override
     public Set<Tweet> getFollowedTweets(String userLogin) {
-        Set<Tweet> tweets = new HashSet<>();
-        User user = userDAO.getUserByLogin(userLogin);
-        tweets.addAll(tweetDAO.getUserTweets(userLogin));
-        user.getFollows().stream().forEach(p -> tweets.addAll(tweetDAO.getUserTweets(p.getLogin())));
-        return tweets;
+        Set<Tweet> followedTweets = new HashSet<>();
+        Set<User> follows = userDAO.getFollows(userLogin);
+        followedTweets.addAll(tweetDAO.getUserTweets(userLogin));
+        follows.stream().forEach(p -> followedTweets.addAll(tweetDAO.getUserTweets(p.getLogin())));
+        return followedTweets;
     }
 }
